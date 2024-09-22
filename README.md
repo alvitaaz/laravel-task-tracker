@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# laravel-task-tracker
+Aplikasi pelacak tugas (Task Tracker) yang dibangun dengan Laravel. Aplikasi web ini memungkinkan pengguna menambah, mengedit, dan menghapus tugas dengan mudah. Didesain responsif menggunakan Bootstrap, aplikasi ini memiliki fitur pencarian untuk menemukan tugas. Data tugas disimpan dalam database MySQL, membuat manajemen tugas lebih efisien.
+>>>>>>> 991f25abe332ab8ed9738ef999c213369465d500
