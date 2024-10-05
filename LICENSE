@@ -1,34 +1,34 @@
-# Task Tracker
+    Task Tracker
 
-**Task Tracker** is a web application built using **Laravel**, designed to help users manage and track their task lists easily and efficiently. With a responsive and attractive interface, this application uses **Bootstrap** to ensure an optimal user experience across various devices.
+Task Tracker is a web application built using Laravel, designed to help users manage and track their task lists easily and efficiently. With a responsive and attractive interface, this application uses Bootstrap to ensure an optimal user experience across various devices.
+ 
+    Key Features:
 
-## Key Features:
+- CRUD (Create, Read, Update, Delete):
+  - Add Tasks: Users can easily add new tasks to their list.
+  - View Task List: Tasks are displayed in a clear format, with complete information about their completion status.
+  - Edit Tasks: Users have the ability to update or change the details of existing tasks.
+  - Delete Tasks: Tasks that are no longer needed can be removed at any time.
 
-- **CRUD (Create, Read, Update, Delete)**:
-  - **Add Tasks**: Users can easily add new tasks to their list.
-  - **View Task List**: Tasks are displayed in a clear format, with complete information about their completion status.
-  - **Edit Tasks**: Users have the ability to update or change the details of existing tasks.
-  - **Delete Tasks**: Tasks that are no longer needed can be removed at any time.
-
-- **Task Status**: 
+- Task Status: 
   - Each task is equipped with a circular button indicating its status. If a task has been completed, it will be marked and shown with a strikethrough effect, providing clear visualization.
 
-- **Task Search**: 
+- Task Search: 
   - Users can easily search for specific tasks using a quick and responsive search feature.
 
-- **Pagination**: 
+- Pagination: 
   - The task list is displayed using pagination to organize the data view and facilitate navigation.
 
-## Database Structure
+   Database Structure
 
 This application stores task data in a table consisting of several important columns, each serving a specific function:
 
-- **id**: A unique identifier for each task, ensuring that each entry can be distinguished.
-- **task**: Contains the description or name of the task that needs to be done.
-- **is_done**: Indicates the task's status, where 0 means the task is incomplete and 1 means it is complete.
-- **created_at**: Records the date and time when the task was created, helping users know when the task was added.
-- **updated_at**: Records the date and time when the task was last updated, providing information about the latest activity on the task.
+- id: A unique identifier for each task, ensuring that each entry can be distinguished.
+- task: Contains the description or name of the task that needs to be done.
+- is_done: Indicates the task's status, where 0 means the task is incomplete and 1 means it is complete.
+- created_at: Records the date and time when the task was created, helping users know when the task was added.
+- updated_at: Records the date and time when the task was last updated, providing information about the latest activity on the task.
 
-## Conclusion
+    Conclusion
 
 With **Task Tracker**, users can more easily manage their daily tasks. This application is ideal for anyone looking to enhance productivity and keep their task lists organized.
