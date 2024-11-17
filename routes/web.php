@@ -17,16 +17,16 @@ use PhpParser\Node\Expr\PostDec;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome'); // Menampilkan file 'resources/views/welcome.blade.php'
-});
+//Route::get('/', function () {
+   // return view('welcome'); 
+//});
 
 //Route::get('/halo', function () {
   //  return view('coba.halo'); 
     
 //});
-
-Route::get('/Halo',[HaloController::class,'index']);
+Route::get('/', [TodoController::class, 'index']); 
+//Route::get('/Halo',[HaloController::class,'index']);
 
 //Route::get('/todo', function () {
   //  return view("todo.app");
